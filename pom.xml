@@ -226,8 +226,6 @@
 						<configuration>
 							<!-- native-image 编译可执行文件参数 -->
 							<buildArgs>
-								-march=x86-64
-								-H:+AllowJRTFileSystem
 								-H:+AddAllCharsets
 								--initialize-at-build-time=sun.instrument.InstrumentationImpl
 								--report-unsupported-elements-at-runtime
